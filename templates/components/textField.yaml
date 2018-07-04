@@ -1,0 +1,4 @@
+title: textField
+renderType: freemarker
+templateScript: /magnolia_module/templates/components/textField.ftl
+dialog: magnolia_module:components/textField

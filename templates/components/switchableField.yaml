@@ -1,0 +1,4 @@
+title: switchableField
+renderType: freemarker
+templateScript: /magnolia_module/templates/components/switchableField.ftl
+dialog: magnolia_module:components/switchableField

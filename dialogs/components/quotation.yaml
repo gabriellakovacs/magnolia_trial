@@ -1,0 +1,19 @@
+form:
+  label: quotation
+  tabs:
+    - name: tabMain
+      label: Main
+      fields:
+        - name: citedPerson
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Cited Person
+
+        - name: quotationn
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Quotation
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

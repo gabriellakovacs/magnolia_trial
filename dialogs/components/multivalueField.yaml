@@ -1,0 +1,19 @@
+form:
+    label: multivalueField
+    tabs:
+      - name: tabMain
+        label: Main
+        fields:
+          - name: shoppingList
+            fieldType: multiValue
+            label: Shopping list
+            field:
+              fieldType: text
+              label: Title
+
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

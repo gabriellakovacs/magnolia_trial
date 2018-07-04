@@ -1,0 +1,13 @@
+{
+  "name": "magnolia_module",
+  "private": true,
+  "version": "1.0.0",
+  "description": "magnolia module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css"
+  },
+  "dependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

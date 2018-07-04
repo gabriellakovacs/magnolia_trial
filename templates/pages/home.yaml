@@ -1,0 +1,19 @@
+title: home
+templateScript: /magnolia_module/templates/pages/root.ftl
+renderType: freemarker
+dialog: magnolia_module:pages/home
+visible: true
+areas:
+    main:
+        renderType: freemarker
+        availableComponents:
+            textField:
+                id: magnolia_module:components/textField
+            codeField:
+                id: magnolia_module:components/codeField
+            multivalueField:
+                id: magnolia_module:components/multivalueField
+            switchableField:
+                id: magnolia_module:components/switchableField
+            quotation:
+                id: magnolia_module:components/quotation

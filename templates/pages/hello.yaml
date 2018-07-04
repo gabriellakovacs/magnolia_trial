@@ -1,0 +1,11 @@
+title: hello
+templateScript: /magnolia_module/templates/pages/root.ftl
+renderType: freemarker
+dialog: magnolia_module:pages/hello
+visible: true
+areas:
+    main:
+        renderType: freemarker
+        availableComponents:
+            quotation:
+                id: magnolia_module:components/quotation

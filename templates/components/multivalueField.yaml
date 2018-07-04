@@ -1,0 +1,4 @@
+title: multivalueField
+renderType: freemarker
+templateScript: /magnolia_module/templates/components/multivalueField.ftl
+dialog: magnolia_module:components/multivalueField

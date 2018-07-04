@@ -1,0 +1,16 @@
+form:
+  label: codeField
+  tabs:
+    - name: tabCode
+      label: Code
+      fields:
+        - name: code
+          fieldType: code
+          language: freemarker
+          label: Enter code
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

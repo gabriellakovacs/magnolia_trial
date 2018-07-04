@@ -1,0 +1,4 @@
+title: codeField
+renderType: freemarker
+templateScript: /magnolia_module/templates/components/codeField.ftl
+dialog: magnolia_module:components/codeField

@@ -1,0 +1,10 @@
+title: root
+renderType: freemarker
+templateScript: /magnolia_module/templates/pages/root.ftl
+dialog: magnolia_module:pages/root
+visible: false
+areas:
+    main:
+        availableComponents:
+            text_component:
+            id: magnolia_module:components/text_component
